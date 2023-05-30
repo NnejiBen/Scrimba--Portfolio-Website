@@ -8,47 +8,144 @@
     <title>Portfolio Website</title>
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <img src="" alt="" class="logo">
+        <!-- Logo and hamburger -->
+        <img src="img/logo.png" alt="" class="logo">
         <button class="toggle-nav" aria-label="toggle-navigation">
             <span class="hamburger"></span>
         </button>
+
+        <!-- Navigation menu items -->
         <nav class="nav">
             <ul class="nav--list">
-                <li class="nav--item"><a href="" class="nav--link">Home</a></li>
-                <li class="nav--item"><a href="" class="nav--link">My Services</a></li>
-                <li class="nav--item"><a href="" class="nav--link">About Me</a></li>
-                <li class="nav--item"><a href="" class="nav--link">My Work</a></li>
+                <li class="nav--item"><a href="#intro" class="nav--link">Home</a></li>
+                <li class="nav--item"><a href="#services" class="nav--link">My Services</a></li>
+                <li class="nav--item"><a href="#profile" class="nav--link">About Me</a></li>
+                <li class="nav--item"><a href="#portfolio" class="nav--link">My Work</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section class="intro" id="intro"></section>
-        <section class="services" id="services"></section>
-        <section class="profile" id="profile"></section>
-        <section class="portfolio" id="portfolio"></section>
+        <!-- Intro Section -->
+        <section class="intro-section" id="intro">
+            <h1>Hi, I am <strong>Ben Nneji</strong></h1>
+            <p>Front-end Dev</p>
+            <img src="img/ben-nneji-01.png" alt="">
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section" id="services">
+            <h2>What I do</h2>
+            <div class="services">
+
+                <!-- Service 01 -->
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>I have experience building websites that are not only appealing, but are also fast and responsive, with all the required functionalities in place.</p>
+                </div>
+
+                <!-- Service 02 -->
+                <div class="service">
+                    <h3>UI/UX Design</h3>
+                    <p>I work with a team experienced in designing various types of websites, from blogs to ecommerce websites. So, you are absolutely in good hands!</p>
+                </div>
+
+                <!-- Service 03 -->
+                <div class="service">
+                    <h3>App Development</h3>
+                    <p>Mobile apps are the rage! I work with a team of developers that are experienced in designing and building mobile apps that are user-friendly and intuitive.</p>
+                </div>
+
+            </div>
+            <!-- Button -->
+            <a href="#portfolio" class="work-btn">See My Work</a>
+        </section>
+
+        <!-- Profile Section -->
+        <section class="profile-section" id="profile">
+            <h2>Who I am</h2>
+            <p>I build modern, elegant and functional websites</p>
+            <div class="profile--body">
+                <p>I put in the work to leave each client happy and satisfied. I have experience building websites that are fast, responsive, and search engine optimized. By paying careful attention to detail, I build websites that not only look awesome, but are also free from typos.</p>
+                <p>I built my first website in 2007 using Dreamweaver and Fireworks. Since then, I have acquired and worked with other front-end skills such as HTML, CSS, JavaScript, and React. I do my best to keep up with trends and to follow best practices.</p>
+            </div>
+            <img src="img/ben-nneji-02.png" alt="">
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="portfolio-section" id="portfolio">
+            <h2>My Projects</h2>
+            <p>Here are some of my projects</p>
+            <div class="projects">
+
+                <!-- Project 01 -->
+                <a href="https://github.com/NnejiBen/Scrimba--Hometown-Homepage" target="_blank" class="projects--item">
+                    <img src="img/01-hometown.png" alt="" class="projects--img">
+                </a>
+
+                <!-- Project 02 -->
+                <a href="https://github.com/NnejiBen/Scrimba--Unit-Converter" target="_blank" class="projects--item">
+                    <img src="img/02-unit-converter.png" alt="" class="projects--img">
+                </a>
+
+                <!-- Project 03 -->
+                <a href="https://github.com/NnejiBen/Scrimba--Basketball-Scoreboard" target="_blank" class="projects--item">
+                    <img src="img/03-game-scoreboard.png" alt="" class="projects--img">
+                </a>
+
+                <!-- Project 04 -->
+                <a href="https://github.com/NnejiBen/Scrimba--Password-Generator" target="_blank" class="projects--item">
+                    <img src="img/04-password-gen.png" alt="" class="projects--img">
+                </a>
+
+                <!-- Project 05 -->
+                <a href="https://github.com/NnejiBen/Scrimba--Biz-Card" target="_blank" class="projects--item">
+                    <img src="img/05-biz-card.png" alt="" class="projects--img">
+                </a>
+
+                <!-- Project 06 -->
+                <a href="https://github.com/NnejiBen/Scrimba--Travel-Journal" target="_blank" class="projects--item">
+                    <img src="img/06-travel-journal.png" alt="" class="projects--img">
+                </a>
+
+            </div>
+        </section>
     </main>
+
+    <!-- Footer -->
     <footer class="footer">
+        <!-- Email -->
         <a href="mailto:nnejiben@gmail.com">nnejiben@gmail.com</a>
         <ul class="social-list">
+
+            <!-- Social Icon 01 -->
             <li class="social-list--item">
-                <a href="https://github.com/NnejiBen" class="social-list--link">
+                <a href="https://github.com/NnejiBen" target="_blank" class="social-list--link">
                     <i class="fa-brands fa-github"></i>
                 </a>
             </li>
+
+            <!-- Social Icon 02 -->
             <li class="social-list--item">
-                <a href="https://www.linkedin.com/in/benjamin-nneji-a4372623a/" class="social-list--link">
+                <a href="https://www.linkedin.com/in/benjamin-nneji-a4372623a/" target="_blank" class="social-list--link">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
             </li>
-            <li class="social-list--item"><a href="https://twitter.com/ben_nneji" class="social-list--link">
+
+            <!-- Social Icon 03 -->
+            <li class="social-list--item"><a href="https://twitter.com/ben_nneji" target="_blank" class="social-list--link">
                     <i class="fa-brands fa-twitter"></i>
                 </a>
             </li>
-            <li class="social-list--item"><a href="https://web.facebook.com/techyben" class="social-list--link">
+
+            <!-- Social Icon 04 -->
+            <li class="social-list--item"><a href="https://web.facebook.com/techyben" target="_blank" class="social-list--link">
                 <i class="fa-brands fa-facebook"></i>
                 </a>
             </li>
+            
         </ul>
     </footer> 
 </body>
