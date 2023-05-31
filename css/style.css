@@ -28,7 +28,7 @@
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
     --fs-h3: 1.5rem;
-    --fs-body: 1.125rem;
+    --fs-body: 1rem;
 
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
@@ -93,7 +93,7 @@ h3 {
 .profile--subtitle {
     background-color: var(--clr-green);
     font-family: var(--ff-oswald);
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
     padding: 0.25em 1em;
 }
 
@@ -141,6 +141,7 @@ strong {
     position: relative;
     left: -1.5em;
     width: calc(100% + 1.5em);
+    margin-bottom: 2em;
 }
 
 /* Services Section */
@@ -152,13 +153,14 @@ strong {
     background-size: cover;
     background-blend-mode: multiply;
     text-align: center;
+    margin-bottom: 4em;
 }
 
 .services {
     display: flex;
     column-gap: 1.5em;
-    padding: 0 5em;
-    margin-bottom: 4em;
+    width: 80%;
+    margin: auto auto 4em auto;
 }
 
 /* .service + .service {
@@ -205,8 +207,46 @@ strong {
     transform: scale(1.1);
 }
 
+/* Profile Section */
 
+.profile-section {
+    display: grid;
+    grid-template-areas: 
+        "title img"
+        "subtitle img"
+        "text img";
+    grid-template-columns: 1fr 200px;
+    grid-column-gap: 1.5em;
+    width: 70%;
+    margin: auto;
+}
 
+.profile-img {
+    grid-area: img;
+    box-shadow: var(--bs);
+    position: relative;
+    z-index: 2;
+}
+
+.profile--title {
+    grid-area: title;
+    margin-left: .5em;
+}
+
+.profile--subtitle {
+    grid-area: subtitle;
+    grid-column: 1 / -1;
+    grid-row: 2;
+    position: relative;
+    width: calc(100% + 1.5em);
+    padding-left: 1em;
+    padding-right: calc(200px + 4em);
+    background-color: var(--clr-sienna);
+}
+
+.profile--body {
+    padding: 0 2em;
+}
 
 /* RESPONSIVE MODE */
 
