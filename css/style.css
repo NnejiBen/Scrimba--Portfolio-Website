@@ -113,7 +113,6 @@ h3 { font-size: var(--fs-h3); }
 
 .nav {
     position: fixed;
-    /* background: var(--clr-dark); */
     background: var(--clr-blue);
     color: var(--clr-light);
     top: 0;
