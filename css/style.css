@@ -468,6 +468,10 @@ strong {
     padding: 1em;
 }
 
+.logo {
+    max-width: 40px;
+}
+
 /* Intro Section */
 
 .intro-section {
