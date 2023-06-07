@@ -481,25 +481,33 @@ strong {
 /* Intro Section */
 
 .intro-section {
-    position: relative;
-    display: grid;
-    width: min-content;
-    grid-template-areas: 
-        "intro--title"
-        "intro--subtitle"
-        "img";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.intro--title {
+    margin: 0;
 }
 
 .intro--subtitle {
-    align-self: center;
-    text-align: center;
-    margin-bottom: 1.2em;
+    width: 90%;
+    margin: 1em auto 1.5em auto;
+    padding: .5em;
+}
+
+.intro--img {
+    width: 80%;
+    margin: auto;
 }
 
 /* Services Section */
 
 .services-section {
-    margin-bottom: 2em;
+    margin-bottom: 0;
 }
 
 .services {
@@ -509,5 +517,34 @@ strong {
     width: 100%;
     margin: auto auto 3em auto;
 }
+
+/* Profile Section */
+
+.profile-section {
+    grid-template-areas: 
+        "title"
+        "subtitle"
+        "img";
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    row-gap: 2em;
+    width: 100%;
+}
+
+.profile--title {
+    margin: 0;
+}
+
+.profile--subtitle {
+    width: 90%;
+    padding: .5em 1em;
+    margin: auto;
+}
+
+.profile--body {
+    padding: 0 2em;
+}
+
+
 
 }
