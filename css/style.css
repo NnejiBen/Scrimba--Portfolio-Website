@@ -179,7 +179,6 @@ h3 { font-size: var(--fs-h3); }
 .hamburger {
     display: block;
     position: relative;
-    margin: .5em 3em 0 0;
     margin: 1em;
 }
 
@@ -444,4 +443,71 @@ strong {
         --fs-h3: 1.25rem;
         --fs-body: 1rem;
     }
+
+/* General Styles */
+
+    section {
+        padding: 5em 2em;
+    }
+
+/* Typography */
+
+    .section-title {
+        margin-bottom: .25em;
+        text-align: center;
+    }
+
+    .section-subtitle {
+        text-align: center;
+    }
+
+/* Header Section */
+
+/* not yet edited */
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+.hamburger {
+    display: block;
+    position: relative;
+    margin: .5em 3em 0 0;
+    margin: 0;
+}
+/* not yet edited */
+
+/* Intro Section */
+
+.intro-section {
+    position: relative;
+    display: grid;
+    width: min-content;
+    grid-template-areas: 
+        "intro--title"
+        "intro--subtitle"
+        "img";
+}
+
+.intro--subtitle {
+    align-self: center;
+    text-align: center;
+    margin-bottom: 1.2em;
+}
+
+/* Services Section */
+
+.services-section {
+    margin-bottom: 2em;
+}
+
+.services {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 3em;
+    width: 100%;
+    margin: auto auto 3em auto;
+}
+
 }
