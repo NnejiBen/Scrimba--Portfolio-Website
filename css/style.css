@@ -453,14 +453,14 @@ strong {
 
 /* Typography */
 
-    .section-title {
-        margin-bottom: .25em;
-        text-align: center;
-    }
+.section-title {
+    margin-bottom: .25em;
+    text-align: center;
+}
 
-    .section-subtitle {
-        text-align: center;
-    }
+.section-subtitle {
+    text-align: center;
+}
 
 /* Header Section */
 
@@ -470,6 +470,7 @@ strong {
 
 .logo {
     max-width: 40px;
+    margin-left: .5em;
 }
 
 /* Intro Section */
