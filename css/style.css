@@ -19,6 +19,7 @@
     --fw-extra-bold: 900;
 
     --clr-green: #2A9D8F;
+    --clr-green-light: #3debd6;
     --clr-sienna: #E76F51;
     --clr-blue:  #264653;
     --clr-light: #fff;
@@ -285,7 +286,7 @@ strong {
     height: 2px;
     margin: 0.5em auto 1em;
     background: var(--clr-light);
-    opacity: 0.25;
+    opacity: 0.5;
 }
 
 .work-btn {
@@ -438,10 +439,10 @@ strong {
 
 @media (max-width: 576px) {
     :root {
-        --fs-h1: 3rem;
-        --fs-h2: 2.25rem;
-        --fs-h3: 1.25rem;
-        --fs-body: 1rem;
+        --fs-h1: 4rem;
+        --fs-h2: 4rem;
+        --fs-h3: 2rem;
+        --fs-body: 1.5rem;
     }
 
 /* General Styles */
@@ -508,6 +509,8 @@ strong {
 
 .services-section {
     margin-bottom: 0;
+    padding-top: 4em;
+    padding-bottom: 7em;
 }
 
 .services {
@@ -516,6 +519,20 @@ strong {
     row-gap: 3em;
     width: 100%;
     margin: auto auto 3em auto;
+}
+
+.services--title {
+    color: var(--clr-green-light);
+}
+
+.services--title::after {
+    opacity: 0.7;
+}
+
+.work-btn {
+    padding: 1em 3em;
+    font-size: 1.2rem;
+    background: var(--clr-green-light);
 }
 
 /* Profile Section */
@@ -545,6 +562,15 @@ strong {
     padding: 0 2em;
 }
 
+/* Portfolio Section */
 
+.portfolio--subtitle {
+    margin-bottom: 1.5em;
+}
+
+.projects {
+    width: 100%;
+    margin: auto;
+}
 
 }
