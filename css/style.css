@@ -498,6 +498,7 @@ strong {
     width: 90%;
     margin: 1em auto 1.5em auto;
     padding: .5em;
+    position: unset;
 }
 
 .intro--img {
