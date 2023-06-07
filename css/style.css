@@ -439,10 +439,10 @@ strong {
 
 @media (max-width: 576px) {
     :root {
-        --fs-h1: 4rem;
-        --fs-h2: 4rem;
-        --fs-h3: 2rem;
-        --fs-body: 1.5rem;
+        --fs-h1: 3.5rem;
+        --fs-h2: 3rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.2rem;
     }
 
 /* General Styles */
@@ -571,6 +571,16 @@ strong {
 .projects {
     width: 100%;
     margin: auto;
+}
+
+/* Footer Section */
+
+.footer {
+    font-size: var(--fs-body);
+}
+
+.social-list {
+    margin: 1em 0 0;
 }
 
 }
