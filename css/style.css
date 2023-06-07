@@ -566,6 +566,7 @@ strong {
 
 .portfolio--subtitle {
     margin-bottom: 1.5em;
+    color: var(--clr-green-light);
 }
 
 .projects {
