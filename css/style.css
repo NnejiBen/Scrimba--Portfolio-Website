@@ -464,20 +464,9 @@ strong {
 
 /* Header Section */
 
-/* not yet edited */
 .header-section {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em 2em;
+    padding: 1em;
 }
-
-.hamburger {
-    display: block;
-    position: relative;
-    margin: .5em 3em 0 0;
-    margin: 0;
-}
-/* not yet edited */
 
 /* Intro Section */
 
@@ -488,6 +477,7 @@ strong {
     justify-content: center;
     width: 100%;
     margin: auto;
+    padding-top: 2em;
 }
 
 .intro--title {
