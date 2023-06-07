@@ -530,7 +530,7 @@ strong {
 }
 
 .work-btn {
-    padding: 1em 3em;
+    padding: .5em 2.5em;
     font-size: 1.2rem;
     background: var(--clr-green-light);
 }
@@ -577,6 +577,7 @@ strong {
 
 .footer {
     font-size: var(--fs-body);
+    color: var(--clr-green-light);
 }
 
 .social-list {
