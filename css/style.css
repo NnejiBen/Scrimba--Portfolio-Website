@@ -133,6 +133,10 @@ h3 { font-size: var(--fs-h3); }
     transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 }
 
+nav--item_work {
+    display: none;
+}
+
 .nav--list {
     height: 100%;
     list-style: none;
