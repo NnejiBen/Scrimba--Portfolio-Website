@@ -443,10 +443,10 @@ strong {
 
 @media (max-width: 576px) {
     :root {
-        --fs-h1: 3.5rem;
-        --fs-h2: 3rem;
-        --fs-h3: 1.5rem;
-        --fs-body: 1.2rem;
+        --fs-h1: 3rem;
+        --fs-h2: 2.5rem;
+        --fs-h3: 1.2rem;
+        --fs-body: 1rem;
     }
 
 
@@ -515,15 +515,15 @@ strong {
 .services-section {
     margin-bottom: 0;
     padding-top: 4em;
-    padding-bottom: 7em;
+    padding-bottom: 6em;
 }
 
 .services {
     flex-direction: column;
     column-gap: 0;
-    row-gap: 3em;
+    row-gap: 1.5em;
     width: 100%;
-    margin: auto auto 3em auto;
+    margin: auto auto 2em auto;
 }
 
 .services--title {
@@ -531,7 +531,6 @@ strong {
 }
 
 .services--title::after {
-    /* opacity: 0.7; */
     margin: 1em auto 1em;
 }
 
