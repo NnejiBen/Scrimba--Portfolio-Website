@@ -357,6 +357,7 @@ strong {
     background-color: var(--clr-blue);
     color: var(--clr-light);
     text-align: center;
+    display: none;
 }
 
 .portfolio--subtitle {
