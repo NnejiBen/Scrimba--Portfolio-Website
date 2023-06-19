@@ -297,7 +297,8 @@ strong {
 }
 
 .work-btn {
-    display: inline-block;
+    /* display: inline-block; */
+    display: hidden;
     padding: 1em 2.5em;
     background: var(--clr-green);
     color: var(--clr-black);
